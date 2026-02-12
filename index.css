@@ -11,6 +11,26 @@ body {
 }
 
 
+.container-login{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5292f1
+    ;
+
+}
+.container-home {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5292f1
+    ;
+}
+
 .container {
 
     height: 100vh;
@@ -20,19 +40,31 @@ body {
    
 }
 
+.container-cadastro {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5292f1
+    ;
+}
+
 .login-box {
 
-    background-color: #fff;
+    width:100%;
+    max-width: 400px;
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    background-color: #f4f6f8;
 
 }
 
 button {
 
-    display: flexbox;
     border-radius: 3px;
+    margin: 10px;
     
 }
 
@@ -44,15 +76,9 @@ button {
 
 }
 
-.register {
-
-    padding:3px;
-    background-color: white;
-}
-
 .carousel {
     max-width: 600px;
-    margin: 0 auto; /* centraliza */
+    margin: 0 auto; 
   }
   
   .carousel img {
@@ -89,7 +115,14 @@ img {
 
 .section-doacao {
 
-    padding: 4rem 1rem;
     background: linear-gradient(135deg, #16a34a, #15803d);
     color: white;
+}
+
+#qrCode {
+
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
 }
