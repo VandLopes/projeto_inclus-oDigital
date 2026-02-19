@@ -36,17 +36,13 @@
 }
 
 .footer-doacao {
-
-  
   color: black;
   text-align: center;
   padding: 1rem 0;
 }
 
 .section-centralizada {
-
   padding: 25px;
-  
 }
 
 .container-cadastro {
@@ -119,7 +115,6 @@ button {
 }
 
 .section-doacao {
-  
   background: linear-gradient(135deg, #3b82f6, #2563eb);
 }
 
@@ -127,7 +122,46 @@ button {
   padding: 20px;
   display: flex;
   justify-content: center;
- 
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .row {
+    flex-direction: column !important;
+  }
+
+  .card {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
