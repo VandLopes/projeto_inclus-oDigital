@@ -124,6 +124,12 @@ button {
   justify-content: center;
 }
 
+#qrCode img {
+
+  background-color: white;
+  border-radius: 12px;
+}
+
 img {
   max-width: 100%;
   height: auto;

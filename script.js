@@ -1,4 +1,4 @@
-const loginCorreto = "vanderleilopes23.vl@gmail.com";
+const loginCorreto = "teste@gmail.com";
 const senhaCorreta = "123456";
 
 const form = document.querySelector(".login-box");
